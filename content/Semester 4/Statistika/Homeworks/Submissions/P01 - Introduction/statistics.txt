@@ -1,0 +1,84 @@
+2026-2-23
+Statistics
+==============================================================
+ Statistics  vs  Statistic
+(Statistika) vs (Statistik)
+     \/             \/
+Cabang ilmu        Data
+
+                 __ Descriptive Statistics
++------------+  /   [Rata-rata, kuartil, deviasi, dsb]
+| Statistics | {   
++------------+  \__ Infrential statistics
+
+   Hanya Descriptive Statistics
+   --> Almost impossible untuk ambil semua data
+       karena keterbatasan sumber daya
+   
+   Cabang ilmu Infrential statistics      _   2
+   --> Mengambil sampel untuk mendapatkan x, s , dan s
+   --> Tujuannya untuk mengetahui seberapa dekat x ke u
+   +---------------------------------------------------------+
+   | dengan kata lain ilmu ini mengestemasikan data u dari x |
+   +---------------------------------------------------------+
+   _______________________     
+  |                       |  
+  | Populasi              | [attachment: Branches of Statistics.png]
+  | N= 6000               | [attachment: IN241_Statistika_Lecture_01.pdf:14]
+  |        _2   _         |          ______________
+  |    u, o  , o          |         /  Probability \
+  |    __________         |         |              \/
+  |   | A sampel |        |    (Population)      (Sample)
+  |   | _   2    |        |        /\               |
+  |   | x  s  s  |        |         \__Inferential__/
+  |   |__________|        |             Statistics
+  |_______________________|
+
+-------------------------------------------------------------
+ Data Classification
+-------------------------------------------------------------
+ Definitions:
+ * Qualitative data (attribute, labels, non-numerical entries)
+ * Quantitative data (numbers that are counts or measurement)
+
+ Levels of measurement
+ ---------------------
+ [attachment: SummaryOfLevelsOfMeasurement.png]
+  * Nominal Level
+      --> String/Non-Number
+  * Ordinal Level: Bukan angka yang dikonversi menjadi angka
+      --> Rating 1-5 (Sangat Buruk -- Sangat Baik)
+          data kualitatif yang dapat dikuantifikasikan
+          (likert scale) _____________________________________
+  * Interval Level      | --> basically "Range" !!            |
+  * Ratio Level         | Range/Rasio                         |
+                        | Many mathematical tools (algorithm) |
+                        | to be used                          |
+                        |_____________________________________|
+
+--------------------------------------------------------------
+ Experimental Design
+ [attachment: IN241_Statistika_Lecture_01.pdf:23]
+--------------------------------------------------------------
+ "double-blind experiment"
+ --> Menjamin randomness
+      * dokter tidak tau obat/placebo
+      * pasien tidak tau juga
+      [Hanya pemilik eksperimen yang tau]
+
+--------------------------------------------------------------
+ Sampling Technique
+ [attachment: IN241_Statistika_Lecture_01.pdf:25]
+--------------------------------------------------------------
+ * Stratified Sample
+ * Cluster Sample
+ * Systematic Sample
+          +----------------------------------------------+        
+          |             Homework Information             |
+          +----------------------------------------------+
+          | Buatlah rangkuman topik pelajaran statistika |
+          | (umumnya deskriptif) yang pernah Anda dapat  |
+          | di SMA, Tulis tangan, minimum 2 halaman A4,  |
+          | maksimum 4 halaman A4.                       |
+          +----------------------------------------------+
+          

@@ -1,0 +1,213 @@
+Statistika              Special UNICODE character:
+3 Februari 2026         ‾ — _ | ╵ ╷ ² Σ σ ᵢ
+======================================================
+
+ +-----------------------------------+
+ |Populations, Samples and Processes |
+ +-----------------------------------+
+ Review: kita melakukan sampling karena populasi
+         terlalu besar, dan hampir tidak mungkin
+         untuk kita melakukan sensus populasi yang
+         sangat besar itu
+         * kita harus puas dengan data sample,
+           melakukan estimasi
+                             ________________________
+                            | Descriptive Statistics |
+----------------------------+------------------------+
+Pictorial and Tabular Methods in Descriptive Statistic
+------------------------------------------------------
+* Stem-and-Leaf Display
+  Observed values: 9, 10, 15, 22, 9, 15, 16, 24, 11
+      0 | 9 9
+      1 | 1 0 5 5 6
+      2 | 2 4       _
+      ^            |\_
+      |               \
+  [Stem: tens digit] [Leaf: Unit digit]
+        +-------------------------------------------+
+        | Ini sudah jarang dipakai karena sudah ada |
+        | komputer                                  |
+        |            Ilmu ini dapat digunakan jika  |
+        |            misal terjadi perang dunia :)  |
+        +-------------------------------------------+
+* Dotplots
+  Observer valued: 9, 10, 15, 22, 9, 15, 16, 24, 11
+          *     *
+          ***   **     * *
+  ----|----|----|----|----|----
+      5    10   15   20   25
+
+------------------------------------------------------
+Types of Variables
+------------------------------------------------------
+* Variabel Diskrit
+      - Variabel yang dapat dicacah / di-count
+        >> Jumlah ban yang dibeli
+* Variabel Kontinu
+  --> Variabel yang tidak dapat dicacah/di-count
+      - Harus diukur
+        >> Jumlah air dalam gelas (untuk awam)
+
+Histogram (discrete data)
+-------------------------
+[attachment: IN241_Statistika_Lecture_02_Descriptive Statistics.pdf:16]
+
++---+------------+             |
+| x | Rel. Freq. |        0.4 _|______________________
++---+------------+             |      ==
+| 0 |  0.08      |        0.3 _|______##______________
+| 1 |  0.28      | ---->       |   == ##
+| 2 |  0.38      |        0.2 _|___##_##______________
+| 3 |  0.16      |             |   ## ## ==
+| 4 |  0.06      |        0.1 _|___##_##_##___________
+| 5 |  0.03      |             |== ## ## ## --
+| 6 |  0.01      |          0 _|##_##_##_##_##_##_--__
++---+------------+              0  1  2  3  4  5  6
+
+* Histogram Shapes
+  - Symmetric unimodal
+    [attachment]
+
+
+
+
+  - bimodal
+    [attachment]
+
+
+
+
+  - positively skewed
+    [attachment]
+
+
+
+
+  - negatively skewed
+    [attachment]
+
+
+
+
+
+------------------------------------------------------
+Measure of Location
+------------------------------------------------------
+* Mean: The average (mean) of the n numbers
+        x1, x2, ..., xn is where   
+                                    n
+                                    Σ  xi
+        _   x1 + x2 + ... + xn     i=1
+        x = ———————————————————— = ———————
+                     n                n
+  Population mean: μ
+
+* Median: The sample median, is the middle value in
+          a set o f data that is arranged in ascending
+          order.
+
+* Mode: The sample mode, x    is the data which appears
+                          mode
+        most frequently
+
+3 different shape for a population distribution
+  [attachment:24]
+
+------------------------------------------------------
+Measure of Variability
+------------------------------------------------------
+>> Variance is a measure of the spread of the data
+   (from mean)
+                _                +--------------------+
+         Σ(xᵢ - x )²      Sₓₓ    | based on n-1       |
+   s² = ————————————— = ———————  | degrees of freedom |
+             n-1          n-1    +--------------------+
+
+   Population Variance:
+                _
+         Σ(xᵢ - x)²
+   σ² = —————————————
+              N
+
+   Standar Deviasi:
+         ____
+   s = \/ s²
+         ____
+   σ = \/ σ²
+
+   Alternative formula (no-average):
+   [attachment:30]
+
+
+
+
+   >> Using Table
+   +----+----+-----------+------+--------+---------+
+   | xᵢ | fᵢ |midpoint xᵢ| fᵢxᵢ | (xᵢ-x̄) | (xᵢ-x̄)²  
+   +----+----+-----------+------+--------+---------+
+   +-----------+-----+-------+
+     fᵢ(xᵢ-x̄)² | xᵢ² | fᵢxᵢ² |
+   +-----------+-----+-------+
+   [attachment:34]
+
+
+
+
+
+
+
+
+>> Quartile                              +--------------------+
+   Convention: Untuk menentukan quartile | MEDIAN diikutkan!! |
+                                         +--------------------+
+   fₛ = Q3 - Q1
+
+>> Outliers
+   Any observation farther than 1.5fₛ is an outlier.
+   An outliers is extreme if it is more than 3fₛ from the
+   nearest quartile, and it is mild otherwise
+
+>> Boxplot
+
+
+--------------------------------------------
+Grouped Data
+--------------------------------------------
+Variables: xᵢ = class midpoint
+           L  = class lowerbound
+           c  = class interval length
+           f  = class frequency
+           fk = lower cumul.freq
+           j  = 1,2,3
+           d1 = class freq - prev class freq
+           d2 = class freq - after class freq
+
+Formulas:
+[attachment:41]
+
+-------------------------------------------------------
+Normal Data Sets
+-------------------------------------------------------
+Chebyshev's Inequality
+--> Jika sebuah kurva histogram, maka akan diperkirakan
+    paling sedikit banyaknya item pada histogram tersebut
+    +-----------------------------------+
+    |                               1   |
+    | P(μ - kσ < X < μ + kσ) > 1 - ———— |
+    |                               k²  |
+    +-----------------------------------+
+
+
+
+          +-------------------------------------+
+          |        Homework Information         |
+          +-------------------------------------+
+          | 3 Task:                             |
+          | 1. Below are heights of students    |
+          |    tabulated in grouped data, sa... |
+          | 2. Below are grade result of        |
+          |    students who took statistics ... |
+          | 3. Seventy new jobs are opening up  |
+          |    at an IT company, and 1000 ap... |
+          +-------------------------------------+
+
