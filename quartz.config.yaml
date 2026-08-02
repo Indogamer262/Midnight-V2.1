@@ -155,6 +155,9 @@ plugins:
     enabled: true
   - source: "@quartz-community/folder-page"
     enabled: true
+    options:
+      showFolderCount: false
+      showSubfolders: false
   - source: "@quartz-community/tag-page"
     enabled: true
   - source: "@quartz-community/explorer"
@@ -176,7 +179,7 @@ plugins:
       groupOptions:
         grow: true
   - source: "@quartz-community/backlinks"
-    enabled: true
+    enabled: false
     layout:
       position: right
       priority: 50
@@ -186,7 +189,7 @@ plugins:
       position: beforeBody
       priority: 10
   - source: "@quartz-community/content-meta"
-    enabled: true
+    enabled: false
     layout:
       position: beforeBody
       priority: 20
@@ -227,7 +230,7 @@ plugins:
       position: afterBody
       priority: 10
   - source: "@quartz-community/footer"
-    enabled: true
+    enabled: false
     options:
       links:
         GitHub: https://github.com/jackyzha0/quartz
